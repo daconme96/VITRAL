@@ -13,7 +13,7 @@
 <body>
     <h1>Team Selector</h1>
     <div id="password-section">
-        <label for="password">Enter Answer to the question without spacingh:</label>
+        <label for="password">Enter Answer to the question without spacing</label>
         <input type="password" id="password" name="password">
         <button onclick="checkPassword()">Submit</button>
     </div>
@@ -39,7 +39,7 @@
     <script>
         function checkPassword() {
             const password = document.getElementById('password').value;
-            if (password === 'ClinkHotel') { // Replace with your desired password
+            if (password === 'clinkhotel') { // Replace with your desired password
                 document.getElementById('password-section').classList.add('hidden');
                 document.getElementById('team-section').classList.remove('hidden');
             } else {
